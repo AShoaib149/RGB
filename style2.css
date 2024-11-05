@@ -1,0 +1,59 @@
+html {
+  background: purple;
+}
+
+body {
+  background: white;
+  width: 500px;
+  margin: 0 auto;
+  padding: 20px 50px;
+}
+
+#div-container {
+  border: 2px solid green;
+  background: lightgreen;
+  text-align: center;
+}
+
+#span1 {
+  text-decoration: underline;
+  color: blue;
+}
+
+#span-container {
+  border: 2px solid blue;
+  background: lightblue;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#span2 {
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+#input-container {
+  border: 2px solid red;
+  background: pink;
+  margin-top: 20px;
+  text-align: center;
+}
+
+input {
+  width: 150px;
+  padding: 5px 10px;
+  text-align: center;
+  font-size: 16px;
+  background: white;
+  transition: background 1s;
+}
+
+input:hover {
+  background: black;
+  color: white;
+
+  transition: background 1s, color 1s;
+}
+
+/* Add a hover effect to the button */
+/* Add a transition effect to the button */
